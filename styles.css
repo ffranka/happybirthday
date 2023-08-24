@@ -1,0 +1,47 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'custom';
+  src: url('fonts/Press Start 2P-Regular copy.ttf');
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  line-height: 1.5;
+}
+
+.container {
+  width: 800px;
+  max-width: 80%;
+  padding: 10px;
+  border: none;
+}
+
+#text {
+  font-family: "custom";
+  color:rgb(255, 91, 165);
+}
+.btn {
+border: none;
+color: rgb(255, 91, 165);
+background-color:white;
+font-family: "custom";
+padding: 15px;
+line-height: 1.5;
+text-align: left;
+}
+
+#option-buttons{
+  margin-top: 35px;
+}
+
+
+
